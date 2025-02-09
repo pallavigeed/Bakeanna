@@ -1,0 +1,1452 @@
+@media (min-width: 768px) {
+  .rounded-md-4 {
+    border-radius: var(--bs-border-radius-xl) !important;
+  }
+}
+@media (min-width: 1200px) {
+  .modal-xl {
+    --bs-modal-width: 1044px;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1240px;
+  }
+  .rs_hero_text:not(.text-center) {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 1399px) {
+  .rs_hero_graphic {
+    max-width: 80%;
+    margin-left: auto;
+  }
+  .rs_i_made_box {
+    font-size: 14px;
+    padding: 15px 18px;
+  }
+}
+@media (max-width: 1199px) {
+  .rs_hero_bullet_points {
+    left: -110px;
+  }
+  .rs_hero_bullet_points li {
+    font-size: 14px;
+  }
+  .rs_solution_section .rs_img_outer {
+    max-width: 80%;
+    margin-inline: auto;
+  }
+  .rs_tab_card h2 {
+    font-size: 60px;
+  }
+  .rs_tab_img {
+    max-width: 90%;
+    margin-left: auto;
+  }
+  .rs_tab_card p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .rs_calculator_box {
+    padding: 80px;
+  }
+  .rs_getting_started_section .rs_enterprenurs_card::after {
+    right: -92px;
+    top: 70px;
+    height: 17px;
+    width: 160px;
+  }
+  .rs_i_made_box {
+    font-size: 12px;
+    padding: 15px 18px;
+  }
+}
+
+@media (max-width: 991px) {
+  .rs_hero_text {
+    text-align: center;
+    margin-inline: auto;
+  }
+  .rs_hero_graphic {
+    margin-top: 34px;
+    max-width: 350px;
+    margin-left: unset;
+    margin-inline: auto;
+  }
+  .rs_hero_bullet_points {
+    left: -70px;
+  }
+  .rs_solution_section .rs_section_img {
+    text-align: center;
+  }
+  .rs_solution_accordian {
+    margin-top: 64px;
+  }
+  .rs_how_it_works_section .nav-tabs .nav-link {
+    font-size: 16px;
+    padding: 8px 14px;
+  }
+  .rs_how_it_works_section .nav-tabs {
+    gap: 15px;
+  }
+  .rs_tab_img {
+    margin-left: 0;
+    margin-top: 40px;
+  }
+  .rs_card p {
+    font-size: 18px;
+  }
+  .rs_card {
+    padding: 25px;
+  }
+  .rs_testimonial_text {
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .rs_footer_grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .rs_footer_grid_item:last-child {
+    grid-column: 1 / 5;
+    text-align: center;
+    margin-top: 64px;
+  }
+  .rs_header {
+    box-shadow: none;
+  }
+  .rs_header::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    box-shadow: 0px 12px 20px 0px rgba(16, 24, 40, 0.06);
+  }
+  .rs_main_menu_outer {
+    position: fixed;
+    top: -150vh;
+    z-index: -2;
+    height: calc(100vh - 87px);
+    background-color: #fff;
+    left: 0;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+    padding-inline: 12px;
+    padding-inline: 12px;
+    overflow-y: auto;
+  }
+  .rs_main_menu_outer.active {
+    top: 72px;
+    display: block;
+  }
+  .rs_menu,
+  .rs_header_actions {
+    max-width: 720px;
+    margin-inline: auto;
+    padding-block: 25px;
+    padding-left: 0;
+  }
+  .rs_header_actions {
+    padding-top: 0;
+  }
+  .rs_footer {
+    background-size: contain;
+  }
+  .rs_backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.64);
+    z-index: 1;
+    bottom: 10;
+  }
+  .rs_menu ul a {
+    padding-block: 8px;
+    display: inline-block;
+  }
+  .rs_menu ul {
+    gap: 8px;
+    display: grid;
+  }
+  .rs_section {
+    padding-block: 64px;
+  }
+  .rs_pricing_row > .row {
+    row-gap: 40px;
+  }
+  .rs_step_img {
+    position: relative;
+    padding-block: 71px;
+    margin-top: 40px;
+  }
+  .rs_step_img::after {
+    width: 100vw;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    top: 0;
+  }
+  .rs_how_it_works_steps > div::after {
+    display: none;
+  }
+  .rs_how_it_works_steps > div {
+    padding-top: 64px;
+    padding-bottom: 0;
+  }
+  .rs_how_it_works_steps > div:nth-child(even) .rs_step_img::after {
+    left: 50%;
+  }
+  .rs_step_img {
+    width: 100%;
+  }
+  .rs_step_img::before {
+    right: -20px;
+    top: 39px;
+  }
+  .rs_how_it_works_steps > div:nth-child(even) .rs_step_img::before {
+    right: unset;
+    left: -31px;
+    top: 31px;
+  }
+  .rs_hero_section.rs_hero_section_bottom {
+    background-size: auto, auto, cover;
+  }
+  .rs_hero_list {
+    text-align: left;
+    margin-inline: auto;
+  }
+  .rs_calculator_box {
+    padding: 80px;
+  }
+  .rs_estimate_results_cards {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .rs_estimate_results_seprator {
+    margin-inline: auto;
+  }
+  .rs_estimate_results_seprator::before,
+  .rs_estimate_results_seprator::after {
+    height: 1px;
+    width: calc(50% - 34px);
+    border-right: none;
+    border-top: 1px dashed #d1d1d1;
+    top: 49.5%;
+    transform: translateY(-50%);
+  }
+  .rs_estimate_results_seprator::before {
+    left: 0;
+  }
+  .rs_estimate_results_seprator::after {
+    right: 0;
+    left: unset;
+  }
+  .rs_affiliate_hero .rs_img_outer::before {
+    right: -25px;
+    top: -65px;
+  }
+  .rs_enterprenurs_grid .row {
+    row-gap: 24px;
+  }
+  .rs_getting_started_section .rs_enterprenurs_card::after {
+    right: -66px;
+    top: 70px;
+    height: 13px;
+    width: 110px;
+  }
+  .rs_join_affiliate_card {
+    background-size: cover;
+  }
+  .rs_join_affiliate_card {
+    text-align: center;
+  }
+  .rs_enterprenurs_card .rs_hero_list {
+    margin-left: 0;
+  }
+  .rs_faq_page .rs_affiliate_hero .rs_img_outer::after,
+  .rs_affiliate_hero .rs_img_outer > img {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+  .rs_services_page .rs_step_img::after,
+  .rs_services_page .rs_step_img::before {
+    transform: none;
+  }
+  .rs_services_page
+    .rs_how_it_works_steps
+    > div:nth-child(even)
+    .rs_step_img::after {
+    left: unset;
+  }
+  .rs_reducing_graphic_img {
+    width: 100%;
+    margin-left: 0;
+  }
+  .rs_reducing_cost_section .row {
+    flex-direction: column-reverse;
+  }
+  .rs_about_us_page .rs_hero_section_bottom .rs_hero_graphic {
+    margin-top: 60px;
+  }
+  .rs_reducing_graphic {
+    margin-top: 40px;
+  }
+  .rs_about_us_img {
+    margin-top: 40px;
+  }
+  .rs_about_text {
+    padding-top: 64px;
+  }
+  .rs_menu ul a::after {
+    bottom: 6px;
+  }
+  .rs_mobile_reverse {
+    flex-direction: column-reverse;
+  }
+  .rs_onboarding_services {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .rs_hero_section {
+    background-size: cover;
+  }
+}
+
+@media (max-width: 767px) {
+  :root {
+    --bs-body-font-size: 16px;
+    --bs-body-line-height: 160%;
+  }
+  .btn {
+    --bs-btn-font-size: 14px;
+    --bs-btn-line-height: 20px;
+    --bs-btn-padding-y: 14px;
+  }
+  .rs_menu,
+  .rs_header_actions {
+    max-width: 540px;
+  }
+  .rs_hero_text .rs_page_title {
+    background-position: bottom 1px right 5px;
+    background-size: 260px;
+  }
+  .rs_hero_graphic {
+    text-align: right;
+  }
+  .rs_homepage .rs_hero_graphic {
+    padding-right: 0;
+    text-align: center;
+  }
+  .rs_hero_graphic .rs_hero_graphic_image {
+    max-width: 260px;
+    margin-inline: auto;
+  }
+  .rs_hero_bullet_points {
+    left: 50%;
+    transform: translateX(-50%);
+    width: max-content;
+  }
+  .rs_hero_bullet_points li {
+    font-size: 10px;
+    line-height: 16px;
+    padding: 6px 9px 6px 25px;
+    background-position: left 10px top 9px;
+    background-size: 10px;
+  }
+  .rs_hero_actions {
+    flex-wrap: wrap;
+  }
+  .rs_hero_actions > .btn {
+    width: 100%;
+  }
+  .rs_fun_alternative_section {
+    background-image: url("../images/leftShapeMob.svg"), var(--bs-gradient);
+    background-repeat: no-repeat;
+    background-position: top 0 left 0;
+  }
+  .rs_title,
+  .rs_fun_alternative_section .rs_title,
+  .rs_build_req_squad_section .rs_title,
+  .rs_section_title_outer .rs_title {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .rs_title.rs_title_icon {
+    max-width: 88%;
+  }
+  .rs_img_outer::after {
+    height: 100%;
+  }
+  .rs_img_outer > img,
+  .rs_img_outer,
+  .rs_img_outer::after {
+    border-top-left-radius: var(--bs-border-radius);
+    border-top-right-radius: var(--bs-border-radius);
+    border-radius: var(--bs-border-radius);
+  }
+  .rs_section .rs_img_outer > img {
+    border-width: 2px;
+    border-bottom: 2px solid #000;
+  }
+  .rs_section_img {
+    margin-top: 50px;
+  }
+  .rs_title_icon::after {
+    content: url("../images/titleIconMob.svg");
+    top: -28px;
+    right: -29px;
+  }
+  .rs_footer_grid {
+    grid-template-columns: 1fr;
+  }
+  .rs_footer_grid_item:last-child {
+    grid-column: 1;
+  }
+  .rs_solution_section {
+    background-image: url("../images/leftShapeMob.svg"), var(--bs-gradient);
+    background-repeat: no-repeat;
+    background-position: top 0 left 0;
+  }
+  .rs_star_icon {
+    left: -44px;
+    max-width: 88px;
+    bottom: 42px;
+  }
+  
+  .rs_hiring_section .rs_star_icon {
+    bottom: 59px;
+    left: -42px;
+  }
+
+  .rs_section_title_outer {
+    margin-bottom: 0;
+  }
+  .rs_solution_section .rs_section_img {
+    margin-top: 64px;
+  }
+  .rs_solution_accordian .accordion-button::before {
+    display: none;
+  }
+  .rs_solution_accordian {
+    border-left: 0;
+  }
+  .rs_solution_accordian .accordion-item {
+    padding-left: 0;
+  }
+  .rs_acc_btn_icon {
+    padding: 8px;
+  }
+  .rs_acc_btn_icon img {
+    height: 24px;
+    width: 24px;
+  }
+  .rs_acc_btn_icon {
+    margin-top: -6px;
+  }
+  .rs_solution_accordian .accordion-item .accordion-body {
+    padding-left: 67px;
+    padding-top: 7px;
+  }
+  .rs_solution_accordian .accordion-button {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .rs_how_it_works_section .rs_title_icon::after {
+    right: -30px;
+  }
+  .rs_how_it_works_section {
+    background-image: url("../images/leftShapeMob.svg"),
+      url("../images/howitworkRight.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: top 0 left 0, right bottom;
+  }
+  .rs_custom_tab {
+    margin-top: 24px;
+  }
+  .rs_how_it_works_section .nav-tabs .nav-item {
+    width: 100%;
+  }
+  .rs_page_title {
+    font-size: 36px;
+    line-height: 46px;
+  }
+  .rs_how_it_works_section .nav-tabs .nav-link {
+    width: 100%;
+    font-size: 12px;
+    line-height: 14px;
+    padding-block: 12px;
+  }
+  .rs_how_it_works_section .nav-tabs {
+    gap: 12px;
+  }
+  .firstTab .firstLine,
+  .secondTab .firstLine,
+  .thirdTab .firstLine,
+  .fourthTab .firstLine {
+    height: 8px;
+    top: -10px;
+    width: calc(100% - 22px);
+    left: 11px;
+  }
+  .fourthTab .secondLine,
+  .thirdTab .secondLine,
+  .secondTab .secondLine,
+  .firstTab .secondLine {
+    height: 16px;
+    top: -18px;
+    width: calc(100% - 52px);
+    left: 26px;
+  }
+  .fourthTab .thirdLine,
+  .thirdTab .thirdLine,
+  .secondTab .thirdLine,
+  .firstTab .thirdLine {
+    height: 24px;
+    top: -26px;
+    width: calc(100% - 78px);
+    left: 39px;
+  }
+  .thirdLine,
+  .secondLine,
+  .firstLine {
+    border-radius: 16px 16px 0 0;
+  }
+  .rs_how_it_works_section .tab-content {
+    margin-top: 64px;
+  }
+  .rs_tab_card {
+    padding: 40px;
+  }
+  .rs_tab_text h2 {
+    font-size: 80px;
+    margin-bottom: 30px;
+  }
+  .rs_how_it_works_step_section .rs_tab_text h3,
+  .rs_tab_text h3 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .rs_tab_text p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .rs_tab_img {
+    max-width: 100%;
+  }
+  .rs_tab_img > img {
+    border-radius: 9px !important;
+    box-shadow: 2px 4px 0 #000;
+  }
+  .rs_tab_img::after {
+    right: -40px;
+    top: -30px;
+    transform: scale(0.5);
+  }
+  .tab-pane .rs_tab_img::before {
+    transform: scale(0.5);
+    left: -34px;
+    bottom: -15px;
+  }
+  .secondTab .rs_tab_img::before {
+    left: -41px;
+  }
+  .rs_hero_section {
+    background-position: center bottom;
+    background-size: 100%;
+    background-image: url("../images/heroShapeMob.svg");
+  }
+  .rs_why_us_section {
+    background-image: url("../images/whyusbgMob.svg");
+    background-position: top left;
+  }
+  .rs_why_us_section .rs_title {
+    max-width: 215px;
+  }
+  .rs_card img {
+    width: 56px;
+  }
+  .rs_card p {
+    margin-top: 40px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .rs_card {
+    padding: 40px;
+  }
+  .rs_testimonial_section {
+    background-image: url("../images/leftheartshapeMob.svg"), var(--bs-gradient);
+    background-repeat: no-repeat;
+    background-position: top 0 left 0;
+  }
+  .rs_testimonial::before {
+    content: url("../images/topquotemob.svg");
+    left: 32px;
+    top: -18px;
+  }
+  .rs_testimonial::after {
+    content: url("../images/bottomquotemob.svg");
+    right: 32px;
+    bottom: -26px;
+  }
+  .rs_testimonial {
+    margin-top: 40px;
+    padding: 64px 24px;
+  }
+  .rs_user_img {
+    margin-top: 40px;
+    text-align: center;
+  }
+  .rs_faq_section {
+    background-image: url("../images/quesleft.svg"),
+      url("../images/quesright.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: top 4px left 0, top 0 right 4px;
+  }
+  .rs_faq_section .rs_title.rs_title_icon {
+    max-width: 74%;
+  }
+  .rs_faq_accordions {
+    margin-top: 40px;
+  }
+  .rs_faq_accordions .accordion-item {
+    padding: 24px;
+  }
+  .rs_faq_accordions .accordion-button {
+    align-items: flex-start;
+    gap: 24px;
+  }
+  .rs_faq_accordions .accordion-button,
+  .rs_faq_accordions .accordion-body {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .accordion-button::after {
+    height: 32px;
+    width: 32px;
+  }
+  .rs_footer_logo_seprator {
+    gap: 16px;
+  }
+  .rs_footer_logo_seprator img {
+    width: 80px;
+  }
+  .rs_footer {
+    padding-block: 64px 40px;
+  }
+  .rs_footer_grid_item:not(:first-child) {
+    margin-top: 40px;
+  }
+  .rs_footer .rs_footer_menu ul a {
+    font-weight: 400;
+  }
+  .rs_footer_grid_item:last-child {
+    margin-top: 64px;
+  }
+  .rs_footer_grid_item .btn {
+    display: block;
+    width: 100%;
+  }
+  .rs_footer {
+    background-image: none;
+  }
+  .rs_acc_btn_icon {
+    margin-right: 24px;
+    box-shadow: 2px 2px 0 0 #000;
+  }
+  .rs_img_outer > img,
+  .rs_img_outer,
+  .rs_img_outer::after {
+    border-radius: 6px;
+  }
+  .rs_header_actions ul {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .rs_header_actions ul li a,
+  .rs_header_actions ul li {
+    width: 100%;
+  }
+  .rs_header_actions ul li .btn {
+    padding-block: 14px;
+  }
+  .rs_solution_section .rs_img_outer,
+  .rs_solution_section .rs_img_outer > img,
+  .rs_solution_section .rs_img_outer::after {
+    border-radius: 18px;
+  }
+  .rs_hero_graphic_image img {
+    border-width: 2px;
+  }
+  .rs_hero_graphic_image img {
+    border-radius: 16px;
+  }
+  .rs_pricing_section .rs_sub_title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .rs_pricing_row {
+    margin-top: 40px;
+  }
+  .rs_pricing_table {
+    padding: 24px 16px;
+  }
+  .rs_pricing_top_info h3 {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 24px;
+  }
+  .rs_pricing_info,
+  .rs_pricing_action {
+    margin-top: 24px;
+  }
+  .rs_pricing_info h2 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .rs_plan_includes {
+    margin-top: 50px;
+  }
+  .rs_plan_includes li {
+    font-size: 16px;
+    line-height: 140%;
+    background-position: left top;
+    background-size: 18px;
+    padding-left: 30px;
+  }
+  .rs_pricing_section {
+    background-image: url("../images/pricingbg-mob.svg");
+    background-position: top 160px right;
+  }
+  .rs_pricing_footer p {
+    font-size: 20px;
+    line-height: 160%;
+  }
+  .rs_header .rs_menu_hamburger .btn {
+    --bs-btn-font-size: 10px;
+    --bs-btn-line-height: 10px;
+    --bs-btn-padding-y: 8px;
+    --bs-btn-padding-x: 12px;
+  }
+  .no-scroll .rs_header .rs_menu_hamburger .btn {
+    display: none;
+  }
+  .rs_how_its_works_page .rs_hero_section .rs_hero_graphic {
+    text-align: center;
+    padding: 0;
+  }
+  .rs_watch {
+    position: absolute;
+    top: 10px;
+    right: 16px;
+    width: 61px;
+  }
+  .rs_how_it_works_step_section {
+    background-image: url("../images/leftShapeMobhiw.svg"),
+      url("../images/rightShapeMobhiw.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: top 5px left 0, top 0 right 0;
+  }
+  .rs_how_it_works_step_section .rs_title {
+    margin-bottom: 0;
+  }
+  .rs_step_img::before {
+    right: -12px;
+    top: 56px;
+    height: 24px;
+    width: 40px;
+    background-size: contain;
+  }
+  .rs_how_it_works_steps > div:nth-child(even) .rs_step_img::before {
+    left: -11px;
+    top: 55px;
+  }
+  .rs_hero_section.rs_hero_section_bottom {
+    background-image: url("../images/heroBottomMob.svg");
+    background-color: #e4f0ff;
+    background-repeat: no-repeat;
+    background-position: right 0 bottom 0;
+    background-size: 100%;
+  }
+  .rs_how_its_works_page
+    .rs_hero_section.rs_hero_section_bottom
+    .rs_hero_graphic {
+    margin-top: 64px;
+  }
+  .rs_calculator_box {
+    padding: 64px 16px;
+  }
+  .rs_form_label {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  .rs_form_field:not(:last-child) {
+    margin-bottom: 40px;
+  }
+  .rs_result_title {
+    font-size: 32px;
+    line-height: 120%;
+  }
+  .rs_estimate_calculator_section {
+    background-image: url("../images/estimatebg.svg");
+    background-position: top 131px right;
+  }
+  .rs_result_head h3 {
+    font-size: 24px;
+  }
+  .rs_estimate_details_table {
+    padding: 24px;
+  }
+  .rs_estimate_details_table li {
+    font-size: 18px;
+  }
+  .rs_industries_page .rs_hero_graphic .rs_hero_graphic_image {
+    margin-right: auto;
+  }
+  .rs_industries_page .rs_hero_graphic {
+    text-align: center;
+  }
+  .rs_industries_page .rs_hero_section {
+    background-position: center center;
+    background-size: 100%;
+    background-image: url("../images/industriesbgmob.svg");
+  }
+  .rs_industries_page .rs_watch {
+    top: 45%;
+    transform: translateY(-50%);
+  }
+  .rs_our_recruiters_section {
+    background-image: none;
+  }
+  .rs_industries_filter {
+    padding-block: 40px 64px;
+  }
+  .rs_ind_tags {
+    padding-inline: 55px;
+  }
+  .rs_hero_section {
+    padding-bottom: 64px !important;
+  }
+  .rs_affiliate_hero .rs_img_outer::before {
+    right: -25px;
+    top: -35px;
+    width: 53px;
+    height: 32px;
+    background-size: 100%;
+  }
+  .rs_affiliate_program_page .rs_hero_section {
+    background-image: url("../images/affbgmob.svg");
+    background-size: cover;
+    background-position: top right;
+  }
+  .rs_getting_started_section {
+    background-image: url("../images/joinbgmob.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom left;
+  }
+  .rs_getting_started_section .rs_enterprenurs_card::after {
+    display: none;
+  }
+  .rs_getting_started_section .rs_area_grid .row {
+    row-gap: 40px;
+  }
+  .rs_affiliate_program_page.rs_join_the_squad_page .rs_hero_section {
+    background-position: center;
+  }
+  .rs_fun_alternative_card {
+    padding: 40px 24px;
+    background-image: none;
+  }
+  .rs_fun_alter_section {
+    background-position: right -61px top -70px, left -54px top 6px;
+  }
+  .rs_faq_page.rs_affiliate_program_page .rs_hero_section {
+    background-position: center;
+  }
+  .rs_form_container {
+    flex-wrap: wrap;
+  }
+  .rs_login_logo_sidebar,
+  .rs_main_form {
+    width: 100%;
+  }
+  .rs_login_logo_sidebar {
+    height: auto;
+  }
+  .rs_login_logo_sidebar img {
+    width: 80px;
+  }
+  .rs_main_form {
+    padding: 64px 12px;
+  }
+  .rs_form_body .rs_form_input {
+    padding-inline: 0;
+  }
+  .rs_enter_sec.rs_enterprenurs_section {
+    background-image: var(--bs-gradient);
+    background-repeat: no-repeat;
+    background-position: top right;
+  }
+  .rs_toast_outer {
+    left: 0;
+    bottom: 20px;
+    width: 100%;
+    padding-inline: 12px;
+    font-size: 12px;
+  }
+  .rs_services_page .rs_step_img::after {
+    height: calc(100% - 50px);
+    top: 25px;
+    width: 100%;
+  }
+  .rs_services_page .rs_step_img {
+    padding-block: 0;
+  }
+  .rs_services_page .rs_how_it_works_step_section .rs_tab_text {
+    text-align: center;
+  }
+  .rs_services_page .rs_how_it_works_steps > div {
+    padding-block: unset;
+  }
+  .rs_services_page .rs_how_it_works_steps {
+    margin-top: 64px;
+  }
+  .rs_services_page .rs_how_it_works_steps > div:not(:last-child) {
+    padding-bottom: 64px;
+  }
+  .rs_services_page .rs_step_img::after {
+    left: 50%;
+  }
+  .rs_services_page
+    .rs_how_it_works_steps
+    > div:nth-child(even)
+    .rs_step_img::after {
+    right: 50%;
+  }
+  .rs_services_page .rs_how_it_works_step_section {
+    background-image: none;
+  }
+  .rs_about_us_page .rs_hero_section.rs_hero_section_bottom {
+    background-size: auto, auto, cover;
+  }
+  .rs_about_us_page .rs_hero_section_bottom .rs_hero_graphic .rs_watch {
+    left: 14px;
+  }
+  .rs_our_mission_section {
+    background-image: url("../images/rightshape.svg"),
+      url("../images/picon.svg");
+    background-position: right -61px top -50px, left 27px top 32px;
+  }
+  .rs_our_recruiters_page .rs_watch {
+    display: none;
+  }
+  .rs_our_recruiters_page .rs_hero_graphic {
+    text-align: center;
+  }
+  .rs_about_border_boxes {
+    margin-bottom: 40px;
+  }
+  .rs_contact_form_box {
+    padding: 40px 24px;
+    margin-top: 40px;
+  }
+  .rs_contact_us_page .rs_title_icon::after {
+    display: none;
+  }
+  .rs_contact_us_page.rs_get_demo_page .rs_title_icon::after {
+    display: block;
+  }
+  .rs_menu_dropdown {
+    position: static;
+    background: transparent;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    min-width: 100%;
+    margin-top: 16px;
+  }
+  .rs_testimonial_text {
+    margin-bottom: 0;
+  }
+  .rs_otp_header {
+    padding-inline: 0;
+  }
+  .rs_build_a_squad_page.rs_affiliate_program_page .rs_join_squad_hero {
+    background-image: url("../images/buildheromob.svg");
+  }
+  .rs_hero_text h6 {
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+  .rs_build_a_squad_page .rs_hero_list li {
+    background-position: left 0px top 3px;
+  }
+  .rs_build_a_squad_page.rs_affiliate_program_page .rs_build_squad_hero {
+    background-image: url("../images/buildiconmob.svg"), var(--bs-gradient);
+    background-position: top 0 left 0;
+    background-size: auto;
+  }
+  .rs_build_a_squad_page.rs_affiliate_program_page .rs_build_req_squad_section {
+    background-image: url("../images/buildiconmob.svg");
+    background-position: top 0 left 0;
+    background-size: auto;
+  }
+  .rs_i_made_box {
+    font-size: 10px;
+    padding: 15px 18px;
+    border-radius: 6px;
+    line-height: normal;
+  }
+  .rs_quote_img {
+    width: 64px;
+    margin-top: 60px;
+  }
+  .rs_build_a_squad_page.rs_affiliate_program_page .rs_enterprenurs_wanted {
+    background-image: url("../images/buildiconmob.svg"),
+      url("../images/wantedbg.svg");
+    background-position: top 0 left 0, top right;
+    background-size: auto;
+  }
+  .rs_enterprenurs_action {
+    margin-top: 40px;
+  }
+  .rs_builtIn_section.rs_enterprenurs_section {
+    background-image: url("../images/buildiconmob.svg"),
+      url("../images/buildinbg.svg");
+    background-position: top 0 left 0, center center;
+    background-size: auto, 100%;
+  }
+  .rs_build_squad_gettin_started.rs_getting_started_section {
+    background-image: url("../images/buildiconmob.svg"),
+      url("../images/builtlastbg.svg");
+    background-position: top 0 left 0, center center;
+    background-size: auto, 100%;
+  }
+  .rs_contact_info_section {
+    background-image: url("../images/infomob.svg");
+    background-position: top top;
+  }
+  .rs_contact_info_section .row {
+    row-gap: 24px;
+  }
+  .rs_info_card.rs_area_card .rs_info_img img {
+    width: 24px;
+  }
+  .rs_menu .rs_menu_dropdown {
+    margin-top: 0;
+    border-top: 1px solid #e7e7e7;
+    gap: 0;
+  }
+  .rs_main_menu_outer .rs_menu_dropdown a {
+    padding: 12px 0;
+  }
+  .rs_menu .rs_menu_dropdown_btn > img {
+    margin-bottom: 3px;
+  }
+  .rs_menu ul a.open:hover::after {
+    display: none;
+  }
+  .rs_top_bar_content img {
+    display: none;
+  }
+  .rs_top_bar p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .rs_top_bar p span {
+    position: relative;
+    padding: 0;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+  }
+  .rs_top_bar p span::after,
+  .rs_top_bar p span::before {
+    content: '"';
+  }
+  .rs_top_bar p span {
+    font-family: var(--aktiv-xbold);
+  }
+
+  .rs_top_bar_content {
+    padding-right: 36px;
+  }
+  .rs_top_bar {
+    padding-block: 16px;
+  }
+  .rs_top_bar_close img {
+    width: 16px;
+  }
+  .rs_top_bar_close {
+    top: 17px;
+    transform: none;
+    right: 12px;
+  }
+  .rs_onboarding_services {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .rs_pricing_footer .btn {
+    width: 100%;
+  }
+  .rs_not_found_img img {
+    max-width: 280px;
+  }
+  .rs_not_found_img {
+    margin-bottom: 64px;
+  }
+  .rs_not_found_text h2 {
+    font-size: 36px;
+    line-height: 120%;
+    margin-bottom: 24px;
+  }
+  .rs_not_found_text .btn {
+    width: 100%;
+  }
+  .rs_form_action .btn {
+    width: 100%;
+  }
+  .rs_step_list {
+    max-width: 248px;
+  }
+  .rs_step_list li {
+    height: 36px;
+    width: 36px;
+    font-size: 14px;
+    line-height: 14px;
+    border-width: 1px;
+    padding-top: 3px;
+  }
+  .rs_step_list li:not(:first-child)::before {
+    right: 36px;
+    width: 64px;
+  }
+  .rs_form_action {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .rs_save_badge {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .rs_estimate_results_card h2 {
+    font-size: 48px;
+    margin-bottom: 40px;
+  }
+  .rs_estimate_results_card .rs_calculation {
+    margin-bottom: 24px;
+  }
+  .rs_estimate_results_card h3 {
+    font-size: 36px;
+  }
+  .rs_estimate_results_card {
+    padding-inline: 20px;
+  }
+  .rs_estimate_results_seprator::before,
+  .rs_estimate_results_seprator::after {
+    top: 49.5%;
+  }
+  .rs_estimate_results_seprator {
+    padding-top: 9px;
+  }
+  .rs_result_foot {
+    font-size: 16px;
+    margin-block-end: 64px;
+  }
+  .rs_estimate_details_btn::before,
+  .rs_estimate_details_btn::after {
+    width: calc(50% - 132px);
+  }
+  .rs_estimate_details_table li {
+    font-size: 16px;
+    grid-template-columns: 100%;
+    gap: 0;
+  }
+  .rs_estimate_details_table li b {
+    font-size: 20px;
+    display: block;
+    margin-block: 12px 24px;
+  }
+  .rs_estimate_details_table li span {
+    order: 3;
+  }
+  .rs_estimate_details_table li:not(:last-child) {
+    margin-bottom: 24px;
+  }
+  .rs_estimate_details_table li:last-child span {
+    display: none;
+  }
+  .rs_estimate_results_card.rs_red_card {
+    padding-top: 64px;
+  }
+  .rs_estimate_results_card > h5 {
+    margin-bottom: 40px;
+  }
+  .rs_industries_area_tabs.nav-tabs .nav-link {
+    font-size: 12px;
+    padding: 12px 12px;
+    line-height: 16px;
+    width: 100%;
+  }
+  .rs_industries_area_tabs {
+    width: 100%;
+  }
+  .rs_industries_area_tabs .nav-item {
+    width: 50%;
+  }
+  .rs_industries_area_section .tab-content,
+  .rs_area_grid {
+    margin-top: 40px;
+  }
+  .rs_area_card_icon {
+    padding: 14px;
+  }
+  .rs_area_card_icon img {
+    width: 24px;
+  }
+  .rs_area_card h4 {
+    font-size: 16px;
+  }
+  .rs_our_recruiters_page .rs_hero_graphic {
+    text-align: center;
+    padding-right: 0;
+  }
+  .rs_our_recruiters_page .rs_watch {
+    display: none;
+  }
+  .rs_our_recruiters_page .rs_page_title span {
+    padding-bottom: 7px;
+  }
+  .rs_user_card_action .btn {
+    width: 100%;
+  }
+  .rs_hero_text .rs_page_title span {
+    display: inline-block;
+  }
+  .rs_affiliate_hero .rs_img_outer {
+    max-width: 90%;
+  }
+  .rs_affiliate_hero .rs_section_img {
+    margin-top: 34px;
+  }
+  .rs_enterprenurs_section .rs_title {
+    font-size: 32px;
+  }
+  .rs_join_the_squad_page .rs_enterprenurs_section .rs_title,
+  .rs_area_card.rs_enterprenurs_card h3,
+  .rs_enterprenurs_section .rs_title + p {
+    font-size: 24px;
+  }
+  .rs_area_card.rs_enterprenurs_card > img {
+    width: 56px;
+  }
+  .rs_enterprenurs_card h3 {
+    font-size: 24px;
+  }
+  .rs_getting_started_section .rs_area_grid {
+    margin-top: 77px;
+  }
+  .rs_getting_started_section .rs_area_grid + .rs_area_grid {
+    margin-top: 48px;
+  }
+  .rs_join_affiliate_text {
+    padding: 40px 24px 64px;
+  }
+  .rs_join_affiliate_text h3 {
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+  .rs_join_affiliate_text .btn {
+    width: 100%;
+  }
+  .rs_join_section {
+    background-position: left center;
+  }
+  .rs_join_affiliate_card {
+    background-image: url("../images/joinbgmob2.svg");
+    background-position: bottom center;
+  }
+  .rs_enterprenurs_section.rs_earn_money_section {
+    background-image: url("../images/earnlefttop.svg"),
+      linear-gradient(transparent 60%, #e4f0ff 100%),
+      url("../images/earnmoneybgmob.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: top 0 right 0, bottom center, left top;
+    overflow-x: hidden;
+  }
+  .rs_earn_money_section .rs_title_icon::after {
+    display: none;
+  }
+  .rs_solution_section.rs_why_join_us {
+    background-image: url("../images/whyjointopleft.svg"),
+      url("../images/whyjointop.svg"), linear-gradient(#e4f0ff 30%, #fff 100%);
+    background-repeat: no-repeat, no-repea;
+    background-position: left 0 top 0, right 0 top 0, left bottom, top center;
+  }
+  .rs_enterprenurs_section.rs_why_you_need_sec {
+    background-image: url("../images/whylefttop.svg"),
+      linear-gradient(transparent 10%, #e4f0ff 100%);
+    background-repeat: no-repeat;
+    background-position: top 0 left 0, bottom;
+    overflow-x: hidden;
+  }
+  .rs_join_squad_hero .rs_hero_text .rs_page_title span {
+    padding-bottom: 3px;
+  }
+  .accordion-button::after {
+    background-size: 8.5px;
+  }
+  .rs_faq_section {
+    background-image: url("../images/faqmob.svg"), var(--bs-gradient);
+    background-repeat: no-repeat;
+    background-position: top 0 right 0;
+  }
+  .rs_policy_header {
+    background-image: url("../images/policyleft.svg"),
+      url("../images/policyright.svg"), linear-gradient(#c6d8f1, transparent);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top 0 left 0, top 0 right 0, top center;
+  }
+  .rs_policy_body h4,
+  .rs_policy_body h3 {
+    margin-bottom: 40px;
+    font-size: 24px;
+  }
+  .rs_policy_body h4 {
+    margin-bottom: 0;
+  }
+  .rs_policy_body h5 {
+    font-size: 20px;
+  }
+  .rs_policy_body p,
+  .rs_policy_body li {
+    font-size: 16px;
+  }
+  .rs_policy_block:not(:first-child) {
+    padding-top: 44px;
+  }
+  .rs_cookies_bar {
+    bottom: 20px;
+    bottom: 0;
+  }
+  .rs_cookies_bar .container {
+    padding: 0;
+  }
+  .rs_cookies_box {
+    border: 0;
+    border-top: 2px solid #000;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 16px;
+  }
+  .rs_cookies_box h3 {
+    font-size: 16px;
+    margin-bottom: 4px;
+  }
+  .rs_cookies_box p {
+    font-size: 12px;
+    margin-bottom: 26px;
+    line-height: 14px;
+  }
+  .rs_cookies_box .btn {
+    width: calc(50% - 8px);
+    padding-block: 12px;
+  }
+  .rs_marquee_slider_section {
+    padding-block: 20px;
+  }
+  .rs_marquee_slide p {
+    font-size: 16px;
+  }
+  .rs_form_field .row.rs_no_gap_row {
+    gap: 0;
+  }
+  .rs_about_us_section {
+    background-image: url("../images/rightshape.svg"),
+      url("../images/picon.svg"), url("../images/aboutbg-mob.svg"),
+      linear-gradient(transparent 60%, #e4f0ff 100%);
+    background-position: right -51px top -40px, left 27px top 32px, left top,
+      bottom center;
+    background-repeat: no-repeat, no-repeat, no-repeat, repeat-x;
+    background-size: 100px, auto, 100%;
+  }
+  .rs_our_mission_section {
+    background-position: right -51px top -40px, left 27px top 32px;
+    background-size: 100px, auto;
+  }
+  .rs_about_border_box {
+    padding: 24px;
+  }
+  .rs_about_us_page .rs_hero_section.rs_hero_section_bottom {
+    background-color: #e4f0ff;
+    background-image: url("../images/trsicon.svg"), url("../images/trsmob.svg");
+    background-color: #e4f0ff;
+    background-repeat: no-repeat, no-repeat;
+    background-position: top 0 left 0, bottom right;
+  }
+  .rs_our_vision_section .rs_join_affiliate_text {
+    padding: 40px 24px;
+  }
+  .rs_our_vision_section .rs_join_affiliate_card {
+    background-position: left center;
+    background-image: url("../images/visioinbg.svg");
+  }
+  .rs_form .btn {
+    width: 100%;
+    padding-block: 13px;
+  }
+  .rs_logo span {
+    font-size: 8px;
+  }
+  .rs_logo img {
+    max-width: 44px;
+  }
+  .rs_header {
+    padding-block: 13px;
+  }
+  .rs_main_menu_outer {
+    height: calc(100vh - 74px);
+  }
+  .rs_main_menu_outer.active {
+    top: 59px;
+    display: block;
+  }
+  .rs_industries_area_section {
+    background-image: url("../images/industriesbg.svg");
+    background-repeat: no-repeat;
+    background-position: left top;
+  }
+  .rs_user_details p b {
+    font-size: 14px;
+  }
+  .rs_otp_fields {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .rs_otp_fields .rs_form_control {
+    height: 48px;
+    font-size: 16px;
+    border-radius: 8px;
+  }
+  .rs_build_squad_gettin_started.rs_getting_started_section .btn {
+    width: 100%;
+  }
+}
+@media (max-width: 380px) {
+  .rs_page_title text {
+    display: block;
+    max-width: 80%;
+    margin: auto;
+  }
+}
