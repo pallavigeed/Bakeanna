@@ -29,7 +29,7 @@
   --bs-border-radius-lg: 24px;
   --bs-border-radius-xl: 32px;
   --bs-border-radius-pill: 0px;
-  --bs-primary-text-emphasis:#000;
+  --bs-primary-text-emphasis: #000;
   --bs-box-shadow: 0px 2px 0px 0px #000;
   --bs-dropdown-border-color: 238, 238, 238;
   --work-sans: "Work Sans", serif;
@@ -207,7 +207,7 @@ img {
   color: transparent;
   width: 100px !important;
   height: 100px !important;
-} 
+}
 
 .main_banner .slick-arrow::before {
   content: none !important;
@@ -499,7 +499,7 @@ img {
   width: calc(100% - 50px);
   background: rgba(255, 255, 255, 0.9);
   padding: 8px 10px;
-  transform: translateX(-50%);
+  transform: translate(-50% -50);
 }
 
 .trip_wrap {
@@ -998,50 +998,51 @@ img {
   letter-spacing: 0%;
   border: 0;
   color: #000;
+  background: transparent;
 }
-.filter_parent{
+.filter_parent {
   border: 0;
   background: transparent;
 }
-.filter_item:focus{
+.filter_item:focus {
   box-shadow: 0 0 0 0;
 }
-.filter_item:not(.collapsed){
-  background: transparent;
+.filter_item:not(.collapsed) {
+  background: transparent !important;
   border: 0;
   box-shadow: 0 0 0 0;
   color: #000;
 }
-.filter_check{
+.filter_check {
   width: 100%;
 }
-.filter_check:not(:last-child){
+.filter_check:not(:last-child) {
   margin-bottom: 16px;
 }
-.filter_parent .accordion-body{
-padding-block:0px 5px;
+.filter_parent .accordion-body {
+  padding-block: 0px 5px;
 }
-.filter_check .form-check-label{
-font-weight: 500;
-font-size: 18px;
-line-height: 21.11px;
-letter-spacing: 0px;
-color: rgba(102, 102, 102, 1);
+.filter_check .form-check-label {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21.11px;
+  letter-spacing: 0px;
+  color: rgba(102, 102, 102, 1);
 }
 .filter_check .form-check-input:checked {
   background-color: #000000;
   border-color: #000000;
   box-shadow: 0 0 0 0;
 }
-.form-check-input:focus{
+.form-check-input:focus {
   box-shadow: 0 0 0 0;
   border-color: transparent;
 }
 .filter_check .form-check-input {
   --bs-form-check-bg: rgba(241, 241, 241, 1);
   width: 18px;
-    height: 18px;
-    margin-right: 15px;
+  height: 18px;
+  margin-right: 15px;
 }
 @media screen and (max-width: 1600px) {
   .collection_card .content {
@@ -1049,106 +1050,266 @@ color: rgba(102, 102, 102, 1);
   }
 }
 @media screen and (max-width: 1350px) {
-.collection_image {
-  padding: 10px;
-  height: 230px;
-}
+  .collection_image {
+    padding: 10px;
+    height: 230px;
+  }
 }
 @media screen and (max-width: 1100px) {
   .bk_collection h2 {
     font-size: 30px;
     line-height: 45px;
-}
+  }
 }
 @media screen and (max-width: 991px) {
-  .filter_check .form-check-label{
+  .filter_check .form-check-label {
     float: left;
   }
   .result {
     font-size: 16px;
     line-height: 18px;
-}
+  }
 }
 @media screen and (max-width: 767px) {
   .result {
     text-align: center;
     padding-bottom: 30px;
-}
-.collection_card .content h5, .collection_card .content h5 a {
-
-  font-size: 14px;
-  line-height: 18.6px;
-}
-.collection_image {
-  height: 180px;
-}.collection_card .content span {
-  font-size: 12px;
-}
-.collection_card .content {
-  min-height: 124px;
-}
+  }
+  .collection_card .content h5,
+  .collection_card .content h5 a {
+    font-size: 14px;
+    line-height: 18.6px;
+  }
+  .collection_image {
+    height: 180px;
+  }
+  .collection_card .content span {
+    font-size: 12px;
+  }
+  .collection_card .content {
+    min-height: 124px;
+  }
 }
 /* contact page start */
-.contact_container{
+.contact_container {
   box-shadow: 0px 4px 20px 0px #00000026;
   background: #fff;
 }
-.contact_content{
+.contact_content {
   padding: 45px !important;
 }
-.contact_content h6{
+.contact_content h6 {
   font-family: Roxborough CF;
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0px;
 }
-.contact_form label{
-font-weight: 500;
-font-size: 16px;
-line-height: 16px;
-letter-spacing: 0.7px;
-margin-bottom: 8px;
+.contact_form label {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.7px;
+  margin-bottom: 8px;
 }
 .contact_form .textarea_style,
-.contact_form .input_style{
-  border: 1px solid #D1D1D1;
+.contact_form .input_style {
+  border: 1px solid #d1d1d1;
   width: 100%;
   border-radius: 8px;
   padding: 10px 16px;
 }
-.contact_form .input_style{
+.contact_form .input_style {
   height: 55px;
 }
-.consent{
-font-size: 13px;
-line-height: 16px;
-letter-spacing: 0px;
+.consent {
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0px;
 }
-.checkbox_style{
-  border: 1px solid #D1D1D1;
-  width:20px;
-  height:20px;
+.checkbox_style {
+  border: 1px solid #d1d1d1;
+  width: 20px;
+  height: 20px;
   border-radius: 2px;
 }
-.image_wrap img{
+.image_wrap img {
   object-fit: cover;
 }
-@media screen and (max-width: 1280px){
-  .contact_content p{
+@media screen and (max-width: 1280px) {
+  .contact_content p {
     font-size: 14px;
     line-height: 24px;
   }
-  .contact_content{
-  padding: 25px !important;
+  .contact_content {
+    padding: 25px !important;
+  }
 }
-}
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
   .contact_form .input_style {
-      height: 45px;
+    height: 45px;
   }
 }
 /* contact page end */
 /* detail page start */
+.blog_detail .banner_image {
+  height: 550px;
+  border: 2px solid #e2e2e2;
+  padding: 12px;
+  border-radius: 42px;
+  margin-bottom: 30px;
+}
+.blog_detail .banner_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 32px;
+}
+.right_content .inside_container {
+  background: #f3f3f3;
+  padding: 20px 28px;
+}
+.right_content h3 {
+  font-family: Roxborough CF;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0px;
+}
+.latest_blog_list {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 45px;
+}
+.latest_blog_list .list_item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.latest_blog_list .list_item .wrap {
+  width: 70px;
+  height: 70px;
+}
+.latest_blog_list .list_item .wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.list_item h6 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21.11px;
+  letter-spacing: 0px;
+}
+.list_item .date {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.42px;
+  letter-spacing: 0px;
+}
+.left_content .header .date {
+  background: #000000;
+  font-family: var(--inter);
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 21px;
+  letter-spacing: 1.65px;
+  color: #ffffff;
+  width: fit-content;
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
+.left_content .header .author {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0px;
+  color: #555555;
+  margin-bottom: 20px;
+}
 
+.left_content .body_data h5 {
+  font-family: var(--cormorant);
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36.9px;
+  letter-spacing: 0%;
+}
+
+.left_content .body_data li,
+.left_content .body_data p{
+  color: #545454;
+}
+.left_content .body_data li:not(:last-child){
+  margin-bottom: 5px;
+}
+.recipe_container{
+  margin-top:60px;
+  position:relative;
+  padding-top:70px;
+}
+.recipe_blog_card{
+  border: 5px solid #000000
+}
+.recipe_blog_card .card-header{
+  padding-top:80px;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 30px;
+  padding-inline: 20px;
+}
+.recipe_blog_card .card-header .heading{
+  font-family: var(--cormorant);
+font-weight: 600;
+font-size: 30px;
+line-height: 36.9px;
+letter-spacing: 0px;
+text-align: center;
+margin-top:20px;
+
+}
+.recipe_blog_card .image{
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+}
+.recipe_blog_card .image img{
+  border-radius: 100%;
+  border: 5px solid #000000;
+  object-fit:cover;
+}
+.recipe_blog_card  .card_hr{
+  border-top: 2px solid #D3B9CC;
+  opacity: 1;
+  width: 60%;
+  margin-inline:auto;
+}
+.review_text{
+  font-family: Bitter;
+font-weight: 400;
+font-style: italic;
+font-size: 11px;
+line-height: 41px;
+letter-spacing: 0%;
+text-align: center;
+color: #D3B9CC;
+
+}
+.extra_list span{
+  font-family: Bitter;
+font-weight: 400;
+font-size: 15px;
+line-height: 22.51px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.recipe_blog_card  .card-body{
+  padding: 20px;
+}
 /* detail page end */
