@@ -191,24 +191,36 @@ img {
   width: 55px;
   z-index: 2;
   border: 0;
-  color: transparent;
   font-size: 1px;
+}
+.slick-prev.slick-arrow {
+  left: -30px;
+}
+.slick-arrow::before {
+  color: #000;
+  font-size: 35px;
+}
+.slick-next.slick-arrow {
+  right: -30px;
+}
+.main_banner .slick-arrow {
+  color: transparent;
   width: 100px !important;
   height: 100px !important;
-}
+} 
 
-.slick-arrow::before {
+.main_banner .slick-arrow::before {
   content: none !important;
 }
 
-.slick-prev.slick-arrow {
+.main_banner .slick-prev.slick-arrow {
   left: -8%;
   background: url("../img/icons/prev.svg");
   background-repeat: no-repeat;
   background-position: center center;
 }
 
-.slick-next.slick-arrow {
+.main_banner .slick-next.slick-arrow {
   right: -8%;
   background: url("../img/icons/next.svg");
   background-repeat: no-repeat;
@@ -1076,3 +1088,67 @@ color: rgba(102, 102, 102, 1);
   min-height: 124px;
 }
 }
+/* contact page start */
+.contact_container{
+  box-shadow: 0px 4px 20px 0px #00000026;
+  background: #fff;
+}
+.contact_content{
+  padding: 45px !important;
+}
+.contact_content h6{
+  font-family: Roxborough CF;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
+.contact_form label{
+font-weight: 500;
+font-size: 16px;
+line-height: 16px;
+letter-spacing: 0.7px;
+margin-bottom: 8px;
+}
+.contact_form .textarea_style,
+.contact_form .input_style{
+  border: 1px solid #D1D1D1;
+  width: 100%;
+  border-radius: 8px;
+  padding: 10px 16px;
+}
+.contact_form .input_style{
+  height: 55px;
+}
+.consent{
+font-size: 13px;
+line-height: 16px;
+letter-spacing: 0px;
+}
+.checkbox_style{
+  border: 1px solid #D1D1D1;
+  width:20px;
+  height:20px;
+  border-radius: 2px;
+}
+.image_wrap img{
+  object-fit: cover;
+}
+@media screen and (max-width: 1280px){
+  .contact_content p{
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .contact_content{
+  padding: 25px !important;
+}
+}
+@media screen and (max-width: 1024px){
+  .contact_form .input_style {
+      height: 45px;
+  }
+}
+/* contact page end */
+/* detail page start */
+
+/* detail page end */
