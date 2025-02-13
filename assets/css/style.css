@@ -105,6 +105,13 @@ a,
 a::after {
   transition: all 0.3s ease-in-out;
 }
+h1 {
+  font-family: var(--roxborough-cf);
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 96px;
+  letter-spacing: 0px;
+}
 
 h2 {
   font-family: var(--roxborough-cf);
@@ -259,7 +266,7 @@ img {
 
 @media screen and (min-width: 1400px) {
   .container {
-    max-width: 1380px !important;
+    max-width: 1300px !important;
   }
 }
 
@@ -1482,44 +1489,432 @@ img {
   .left_content .body_data h5 {
     font-size: 25px;
     line-height: 30.9px;
-}
-.recipe_blog_card .image img {
-  width: 120px;
-  height: 120px;
-}
-.recipe_blog_card .card-header {
-  padding-top: 45px;
-
-}
-.recipe_container {
-  margin-top: 30px;
-}
-.recipe_blog_card .card-header .heading {
-  font-size: 22px;
-  line-height: 28.9px;
-}
-.extra_list span ,
-.extra_list span strong {
-  font-size: 12px;
-}
-.control_container h6 {
-  font-size: 18px;
-  line-height: 20.9px;
-}
-.card_wrap{
-  row-gap: 20px;
-}
-.card-footer p {
-  font-size: 14px;
-  line-height: 18.51px;
-}
-.card-footer span {
-  font-size: 12px;
-  line-height: 18px;
-}
-.insta svg{
-  height: 30px;
-  width: 30px;
-}
+  }
+  .recipe_blog_card .image img {
+    width: 120px;
+    height: 120px;
+  }
+  .recipe_blog_card .card-header {
+    padding-top: 45px;
+  }
+  .recipe_container {
+    margin-top: 30px;
+  }
+  .recipe_blog_card .card-header .heading {
+    font-size: 22px;
+    line-height: 28.9px;
+  }
+  .extra_list span,
+  .extra_list span strong {
+    font-size: 12px;
+  }
+  .control_container h6 {
+    font-size: 18px;
+    line-height: 20.9px;
+  }
+  .card_wrap {
+    row-gap: 20px;
+  }
+  .card-footer p {
+    font-size: 14px;
+    line-height: 18.51px;
+  }
+  .card-footer span {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .insta svg {
+    height: 30px;
+    width: 30px;
+  }
 }
 /* detail page end */
+
+/* our story start */
+.story_block_1 {
+  height: 550px;
+}
+.story_wrap {
+  border: 2px dashed rgba(202, 202, 202, 1);
+  padding: 15px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 30px;
+  height: 800px;
+}
+.story_wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.story_wrap_2 {
+  width: 100%;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 30px;
+  border: 2px dashed rgba(202, 202, 202, 1);
+  padding: 15px;
+}
+.story_wrap_2 img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.bk_find_here {
+  background-image: url("../img/story/find-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.bk_find_here::before {
+  background: rgba(0, 0, 0, 1);
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.9;
+  z-index: 1;
+}
+.find_box {
+  position: relative;
+  z-index: 2;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: #fff;
+}
+.center_content h2,
+.find_box h2 {
+  text-transform: capitalize;
+  letter-spacing: 0px;
+  line-height: 48px;
+}
+.journey_wrap {
+  height: 420px;
+  width: 100%;
+}
+.journey_wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.center_content {
+  width: 80%;
+}
+.book_card {
+  max-width: 370px;
+  position: relative;
+}
+.book_wrap {
+  width: 100%;
+  height: 450px;
+  margin-bottom: 40px;
+}
+.book_wrap img {
+  width: 100%;
+  height: 100%;
+}
+.book_card .card_heading {
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+  background: rgba(255, 255, 255, 1);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 80%;
+  margin-inline: auto;
+  padding: 28px 20px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.book_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+@media screen and (max-width: 1300px) {
+  .book_wrap {
+    height: 350px;
+    margin-bottom: 30px;
+  }
+  .book_card .card_heading {
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .book_wrap {
+    height: auto;
+  }
+  .story_block_1 {
+    height: auto;
+  }
+  .story_wrap {
+    height: 400px;
+  }
+  h1 {
+    font-size: 60px;
+    line-height: 75px;
+  }
+  .about_content {
+    margin-block: 30px 50px;
+  }
+  .content_box {
+    padding-block: 30px 40px;
+  }
+  .journey_wrap img {
+    object-position: top;
+  }
+  .center_content {
+    width: 100%;
+  }
+  .col_last .journey_wrap {
+    height: 620px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .book_card .card_heading {
+    padding: 16px;
+    font-size: 15px;
+  }
+  .center_content h2,
+  .find_box h2 {
+    line-height: 38px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .book_grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .center_content p,
+  .about_content p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  h1 {
+    font-size: 50px;
+    line-height: 65px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .book_grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .book_card {
+    margin-inline: auto;
+  }
+  .book_grid {
+    gap: 45px;
+  }
+  .journey_wrap {
+    height: 280px;
+  }
+  .col_last .journey_wrap {
+    height: 450px;
+  }
+}
+/* our story end */
+/* Cook start */
+.cook_content h1 {
+  font-family: var(--cormorant);
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.cook_wrap {
+  width: 80%;
+}
+.cook_wrap img {
+  border-radius: 50px;
+}
+.baked_logo {
+  position: absolute;
+  right: -30px;
+  top: -40px;
+  width: 100px;
+  height: 100px;
+}
+.bk_book_wrap {
+  height: 500px;
+}
+.bk_book_wrap img {
+  height: 100%;
+}
+.bk_glimpse h2 {
+  text-transform: inherit;
+}
+.book_slider .book_imgae {
+  width: 90%;
+  margin-inline: auto;
+  height: 382px;
+}
+.book_slider .book_imgae img {
+  height: 100%;
+}
+.book_slider_box .slick-arrow::before {
+  color: #fff;
+  font-size: 35px;
+  opacity: 1;
+}
+.book_slider_box .slick-prev.slick-arrow {
+  left: -30px;
+}
+.book_slider_box .slick-next.slick-arrow {
+  right: -25px;
+}
+.text_box h2 {
+  text-transform: inherit;
+}
+.sub_head {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 2px;
+  margin-bottom: 16px;
+}
+.query_row {
+  background: rgba(249, 249, 249, 1);
+  padding: 50px;
+  height: 350px;
+}
+.query_text {
+  width: 70%;
+  margin-inline: auto;
+}
+.query_text h2 {
+  text-transform: inherit;
+}
+.query_text .text {
+  text-transform: uppercase;
+}
+.query_img {
+  position: absolute;
+  top: 80px;
+  width: 35%;
+  height: 500px;
+}
+.bk_query {
+  height: 735px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.bk_ecookbook {
+  background: rgba(235, 230, 221, 0.5);
+  margin-bottom: 80px;
+}
+.cook_content {
+  width: 80%;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 1900px) {
+  .bk_query {
+    height: 835px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .cook_content h1 {
+    font-size: 55px;
+    line-height: 55px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .cook_content {
+    width: 100%;
+  }
+  .bk_query {
+    height: 680px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .bk_book_wrap {
+    height: 400px;
+  }
+  .book_slider .book_imgae {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .cook_wrap {
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .cook_wrap img {
+    height: 100%;
+    margin-inline: auto;
+  }
+  .bk_query {
+    height: 580px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .bk_book_wrap {
+    height: 272px;
+  }
+  .bk_query,
+  .query_row {
+    height: auto;
+  }
+  .query_img {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .query_text {
+    width: 100%;
+  }
+  .sub_head {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .bk_glimpse p,
+  .cook_content p,
+  .text_box p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .cook_content h1 {
+    font-size: 40px;
+    line-height: 40px;
+}
+.baked_logo{
+  right: 0;
+}
+.bk_book_wrap{
+  height: auto;
+}
+.book_slider_box .slick-prev.slick-arrow{
+  left: 0;
+}
+.book_slider_box .slick-next.slick-arrow{
+  right: 0;
+}
+.book_slider .book_imgae {
+  height: auto;
+  width: 90%;
+  margin-inline: auto;
+}
+.book_slider .book_imgae img{
+  margin-inline: auto;
+}
+.bk_ecookbook  .text_box{
+  margin-top:30px;
+}
+.bk_ecookbook {
+  margin-bottom: 50px;
+}
+.query_img{
+  margin-bottom: 30px;
+}
+}
+/* Cook end */
